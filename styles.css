@@ -37,7 +37,11 @@ h3{
   max-height: 80%;
 }
 
-.dice{
+.dice1{
+  max-width: 80%;
+  max-height: 80%;
+}
+.dice2{
   max-width: 80%;
   max-height: 80%;
 }
