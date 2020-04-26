@@ -43,9 +43,15 @@ function game() {
 
   if (randomNumber1 > randomNumber2) {
     winner.innerHTML = "Bachuu Wins";
+    document.querySelector(".p1").style.visibility="hidden";
+    document.querySelector(".p2").style.visibility="visible";
   } else if (randomNumber1 < randomNumber2) {
     winner.innerHTML = "Buddy Wins";
+    document.querySelector(".p1").style.visibility="visible";
+    document.querySelector(".p2").style.visibility="hidden";
   } else {
     winner.innerHTML = "Draw!";
+    document.querySelector(".p1").style.visibility="visible";
+    document.querySelector(".p2").style.visibility="visible";
   }
 }
